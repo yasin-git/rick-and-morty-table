@@ -2,7 +2,7 @@ import React from 'react';
 
 const Pagination = ({ currentPage, totalPages, onPageChange }) => {
     const pageNumbers = [];
-    // Sadece mevcut sayfanın etrafındaki birkaç sayfayı gösterelim
+    
     const maxPageNumbersToShow = 5;
     let startPage = Math.max(1, currentPage - Math.floor(maxPageNumbersToShow / 2));
     let endPage = Math.min(totalPages, startPage + maxPageNumbersToShow - 1);
