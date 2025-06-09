@@ -4,7 +4,7 @@ A React-based table app that fetches data from the Rick and Morty API and suppor
 
 
 Bu proje, Rick and Morty API'sini kullanarak karakterleri listeleyen, filtreleyen ve detaylarını gösteren bir React uygulamasıdır.
-Özelliklerm, durum ve türe göre filtreleme
+Özellikler; durum ve türe göre filtreleme
 
 Karakterleri ada göre artan veya azalan sırada sıralama
 Sayfalama desteği ile karakterlerin sayfalar halinde gösterimi
